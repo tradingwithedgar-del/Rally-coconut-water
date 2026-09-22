@@ -20,12 +20,24 @@ import endcard as endcard_mod
 
 
 def font_path(brand):
-    override = os.environ.get("REEL_FONT")
-    for path in (override, brand["type"]["font"],
-                 "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"):
-        if path and os.path.exists(path):
-            return path
-    sys.exit("No bold TTF found. Set REEL_FONT=/path/to/Font-Bold.ttf")
+    """First bold TTF that actually exists on this machine."""
+    candidates = [os.environ.get("REEL_FONT"), brand["type"]["font"]] + [
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "/Library/Fonts/Arial Bold.ttf",
+    "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+    "/System/Library/Fonts/HelveticaNeue.ttc",
+    "C:/Windows/Fonts/arialbd.ttf",
+]
+    for candidate in candidates:
+        if candidate and os.path.exists(candidate):
+            return candidate
+    sys.exit(
+        "No bold font found on this machine.\n"
+        "Point REEL_FONT at one, e.g.\n"
+        "  macOS:  export REEL_FONT='/System/Library/Fonts/Supplemental/Arial Bold.ttf'\n"
+        "  Linux:  export REEL_FONT=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+    )
 
 
 def require_filters(ffmpeg):
