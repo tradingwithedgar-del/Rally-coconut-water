@@ -1,0 +1,147 @@
+{
+  "ad_id": "plumbing-01",
+  "title": "The 11:47 Call",
+  "vertical": "Plumbing",
+  "api": {
+    "base_url": "https://api.higgsfield.ai",
+    "video_endpoint": "/bytedance/seedance-2.5/text-to-video",
+    "audio_endpoint": "/higgsfield/text-to-speech-v2",
+    "status_path": "/requests/{request_id}/status",
+    "auth_header": "Key {key_id}:{key_secret}",
+    "_note": "Pay-as-you-go REST platform. Base URL, auth format and status path are verified from the official higgsfield-js SDK. The two endpoint PATHS could not be confirmed against docs.higgsfield.ai (egress-blocked at authoring time); a 404 on first call identifies a rename and it is a one-line fix here."
+  },
+  "video_params": {
+    "mode": "t2v",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "generate_audio": true,
+    "bitrate_mode": "high"
+  },
+  "audio_params": {
+    "model": "text2speech_v2",
+    "variant": "seed_speech",
+    "voice_type": "preset",
+    "voice_id": "3c9d6053-6334-592c-8997-4e325286af3f",
+    "voice_name": "Holden",
+    "format": "wav",
+    "sample_rate": 48000,
+    "_note": "variant seed_speech chosen so no ElevenLabs is involved. Every TTS call is billed as a normal Higgsfield pay-as-you-go generation and needs the same API key."
+  },
+  "master": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "footage_seconds": 17.0,
+    "endcard_seconds": 3.0,
+    "total_seconds": 20.0,
+    "loudness_lufs": -14.0
+  },
+  "shots": [
+    {
+      "id": "01_flood",
+      "label": "The emergency",
+      "prompt": "Handheld close shot, 35mm anamorphic, late night. A cramped suburban laundry room lit only by one bare overhead bulb and a thin sliver of hallway light. A burst copper supply line behind a water heater jets a fine spray; water spreads fast across worn vinyl tile and mirrors the bulb. A woman in her forties in a faded t-shirt drops to her knees in the standing water and jams a folded bath towel against the pipe with both hands; the towel darkens instantly. Her breathing is quick and shallow. Camera sits low at water level and drifts a few inches closer, slight handheld shake, shallow depth of field. Cold desaturated blue-green grade, practical highlights blooming softly, real 35mm film grain. Sound: hissing water, heavy dripping, the low hum of a sleeping house.\n\nShot like a 35mm night-set short film, not a commercial: available-light sources only (bare bulbs, streetlight, headlights, screen glow), handheld or slow deliberate dolly, shallow depth of field, real film grain, muted desaturated night palette that warms only in the final beat. No drone shots, no glossy product lighting, no slow-motion hero moves, no stock-footage symmetry, no smiling actors addressing camera.\n\nAbsolutely no text of any kind in frame: no captions, no subtitles, no watermarks, no logos, no brand names, no signage, no license plates, no printed labels, no readable phone screen or computer interface, no on-screen graphics or UI. Any screen visible in frame must be an out-of-focus glow with no legible content. Vehicles and clothing are plain and unbranded.",
+      "gen_duration": 5,
+      "edit_duration": 2.5,
+      "trim_start": 0.25
+    },
+    {
+      "id": "02_dial",
+      "label": "She calls",
+      "prompt": "Tight handheld insert, 50mm, night. Wet hands snatch a phone off the top of a dryer, a thumb smearing across the glass; the screen is thrown heavily out of focus, an indistinct warm bloom with nothing legible on it. The shot pushes closer: the phone pressed hard to the woman's ear, her jaw set, the cold blue of the flooded room on one cheek and the phone's soft glow on the other. She waits. Her eyes flick once to the side and the hope drains out of her face. Breathing camera, micro-shake, very shallow focus, desaturated night grade, real film grain. Sound: a ringtone repeating into nothing, running water behind it.\n\nShot like a 35mm night-set short film, not a commercial: available-light sources only (bare bulbs, streetlight, headlights, screen glow), handheld or slow deliberate dolly, shallow depth of field, real film grain, muted desaturated night palette that warms only in the final beat. No drone shots, no glossy product lighting, no slow-motion hero moves, no stock-footage symmetry, no smiling actors addressing camera.\n\nAbsolutely no text of any kind in frame: no captions, no subtitles, no watermarks, no logos, no brand names, no signage, no license plates, no printed labels, no readable phone screen or computer interface, no on-screen graphics or UI. Any screen visible in frame must be an out-of-focus glow with no legible content. Vehicles and clothing are plain and unbranded.",
+      "gen_duration": 5,
+      "edit_duration": 3.5,
+      "trim_start": 0.4
+    },
+    {
+      "id": "03_empty_office",
+      "label": "Nobody answers",
+      "prompt": "Slow steady dolly-in, 40mm, night. The front office of a small plumbing contractor, completely empty. A corded desk phone sits on a cluttered reception desk beside a cold half-finished mug of coffee and a chair pushed neatly in. Venetian blinds stripe hard orange streetlight across the back wall and over the desk. The handset rests in its cradle and the whole room is dead still; dust drifts slowly through the bars of light. The camera pushes in evenly on the silent phone and holds on it. Muted amber against deep crushed shadow, heavy negative space, a soft anamorphic flare off the window glass, 35mm film grain. Sound: a phone ringing out in an empty room, a wall clock ticking, nothing else.\n\nShot like a 35mm night-set short film, not a commercial: available-light sources only (bare bulbs, streetlight, headlights, screen glow), handheld or slow deliberate dolly, shallow depth of field, real film grain, muted desaturated night palette that warms only in the final beat. No drone shots, no glossy product lighting, no slow-motion hero moves, no stock-footage symmetry, no smiling actors addressing camera.\n\nAbsolutely no text of any kind in frame: no captions, no subtitles, no watermarks, no logos, no brand names, no signage, no license plates, no printed labels, no readable phone screen or computer interface, no on-screen graphics or UI. Any screen visible in frame must be an out-of-focus glow with no legible content. Vehicles and clothing are plain and unbranded.",
+      "gen_duration": 5,
+      "edit_duration": 3.5,
+      "trim_start": 0.2
+    },
+    {
+      "id": "04_dispatch",
+      "label": "The call gets handled",
+      "prompt": "Night exterior, handheld, 35mm. A plain unmarked service truck parked on a gravel lot under a single sodium lamp, rain beading across the hood. The headlights snap on hard and cut two solid beams through the drizzle. A technician in a heavy work jacket crosses fast through the beams, pulls the door open and swings up into the cab. Through the windshield the wipers sweep once and clear the glass. The truck rolls out of frame, tires hissing over wet gravel, taillights smearing red through the rain. The camera whip-pans a little to follow it, handheld, urgent but controlled. Warm sodium light against cold rain, high contrast, water droplets beaded on the lens, real film grain. Sound: a door slam, a diesel engine catching, wipers, steady rain.\n\nShot like a 35mm night-set short film, not a commercial: available-light sources only (bare bulbs, streetlight, headlights, screen glow), handheld or slow deliberate dolly, shallow depth of field, real film grain, muted desaturated night palette that warms only in the final beat. No drone shots, no glossy product lighting, no slow-motion hero moves, no stock-footage symmetry, no smiling actors addressing camera.\n\nAbsolutely no text of any kind in frame: no captions, no subtitles, no watermarks, no logos, no brand names, no signage, no license plates, no printed labels, no readable phone screen or computer interface, no on-screen graphics or UI. Any screen visible in frame must be an out-of-focus glow with no legible content. Vehicles and clothing are plain and unbranded.",
+      "gen_duration": 5,
+      "edit_duration": 4.0,
+      "trim_start": 0.3
+    },
+    {
+      "id": "05_dawn",
+      "label": "The outcome",
+      "prompt": "Dawn exterior, slow push-out on a gimbal, 35mm. A woman stands in her open front doorway in a robe, arms loosely crossed, warm interior light spilling past her onto a wet porch. She lets out a long breath and her shoulders finally drop. Beyond her, down the glistening street, a plain service truck pulls away into soft blue pre-dawn mist and its taillights shrink to points. The camera eases backward and slightly upward, revealing the quiet neighborhood just starting to wake. Warm amber interior against cool blue morning, gentle contrast, soft natural haze in the air, 35mm film grain. Sound: first birdsong, a truck receding, quiet.\n\nShot like a 35mm night-set short film, not a commercial: available-light sources only (bare bulbs, streetlight, headlights, screen glow), handheld or slow deliberate dolly, shallow depth of field, real film grain, muted desaturated night palette that warms only in the final beat. No drone shots, no glossy product lighting, no slow-motion hero moves, no stock-footage symmetry, no smiling actors addressing camera.\n\nAbsolutely no text of any kind in frame: no captions, no subtitles, no watermarks, no logos, no brand names, no signage, no license plates, no printed labels, no readable phone screen or computer interface, no on-screen graphics or UI. Any screen visible in frame must be an out-of-focus glow with no legible content. Vehicles and clothing are plain and unbranded.",
+      "gen_duration": 5,
+      "edit_duration": 3.5,
+      "trim_start": 0.5
+    }
+  ],
+  "voiceover": [
+    {
+      "id": "vo1",
+      "start": 0.5,
+      "end": 6.4,
+      "text": "Eleven forty-seven at night. Your next five hundred dollar job is calling."
+    },
+    {
+      "id": "vo2",
+      "start": 10.9,
+      "end": 16.8,
+      "text": "Grand Nash answers every call, English or Spanish, books the job and routes the right tech."
+    },
+    {
+      "id": "vo3",
+      "start": 17.1,
+      "end": 19.9,
+      "text": "If you don't answer, someone else will."
+    }
+  ],
+  "captions": [
+    {
+      "start": 1.6,
+      "end": 4.3,
+      "size": 58,
+      "text": "11:47 PM"
+    },
+    {
+      "start": 5.3,
+      "end": 7.9,
+      "size": 64,
+      "text": "Your customer is calling."
+    },
+    {
+      "start": 8.6,
+      "end": 10.6,
+      "size": 64,
+      "text": "Nobody answers."
+    },
+    {
+      "start": 10.8,
+      "end": 12.0,
+      "size": 64,
+      "text": "That call was worth $500."
+    },
+    {
+      "start": 12.6,
+      "end": 14.2,
+      "size": 62,
+      "text": "Grand Nash answers.\nEvery call. 24/7."
+    },
+    {
+      "start": 14.4,
+      "end": 15.9,
+      "size": 62,
+      "text": "English and Spanish.\nBooked and dispatched."
+    }
+  ],
+  "end_card": {
+    "headline": "NEVER MISS ANOTHER CALL.",
+    "headline_wrapped": "NEVER MISS\nANOTHER CALL.",
+    "sub1": "24/7 Bilingual AI Receptionist",
+    "sub2": "FOR PLUMBING COMPANIES",
+    "cta_wrapped": "STOP LOSING CALLS.\nBOOK A FREE DEMO."
+  },
+  "_note": "Ported from the original shots.json. Shot timings were rebalanced to the 17s footage + 3s end card structure; the prompts are unchanged."
+}

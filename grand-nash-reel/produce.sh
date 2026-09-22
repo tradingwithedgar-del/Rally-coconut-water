@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
-# Generate the five Seedance 2.5 shots, then cut the 20s master.
+# Full render for one ad:  ./produce.sh hvac-01
 set -euo pipefail
 cd "$(dirname "$0")"
-
-if [ -f .env ]; then
-  set -a; . ./.env; set +a
-fi
-
-python3 scripts/generate.py "$@"
-python3 scripts/assemble.py
+AD="${1:-hvac-01}"
+if [ -f .env ]; then set -a; . ./.env; set +a; fi
+python3 engine/generate.py  "$AD"
+python3 engine/voiceover.py "$AD"
+python3 engine/assemble.py  "$AD"

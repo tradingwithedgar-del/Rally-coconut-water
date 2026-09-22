@@ -1,4 +1,4 @@
 build/
-assets/*
-!assets/.gitkeep
 .env
+__pycache__/
+*.pyc
