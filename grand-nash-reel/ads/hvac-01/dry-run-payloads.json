@@ -1,0 +1,121 @@
+{
+  "ad": "hvac-01",
+  "title": "The Hottest Call of the Night",
+  "clips": [
+    {
+      "_clip": "clip1_hook_ac_failure",
+      "_title": "THE HOOK: AC FAILURE",
+      "_timeline_in": 0.0,
+      "_timeline_out": 3.0,
+      "_generated_seconds_billable": 4,
+      "_editorial_seconds_used": 3.0,
+      "_trim_start": 0.5,
+      "_method": "POST https://api.higgsfield.ai/bytedance/seedance-2.5/text-to-video",
+      "_headers": {
+        "Authorization": "Key <KEY_ID>:<KEY_SECRET>",
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "prompt": "CLIP1_HOOK_AC_FAILURE - THE HOOK: AC FAILURE\n\nSCENE: Night in the bedroom during a summer heat wave. The homeowner wakes overheated and uncomfortable. Tight close-up on her damp hairline and restless expression, bed sheets kicked half off. Overhead, a white ceiling fan turns slowly and clearly is not helping the room. Cut to a close realistic view of a wall thermostat whose display glows a little brighter as the temperature climbs; every number and word on it is thrown out of focus and unreadable. She looks toward the thermostat with immediate concern and reaches off-frame for a phone.\n\nLIGHTING: Warm oppressive bedroom practical light mixed with faint cool moonlight through venetian blinds. Humid, heavy, believable summer-night air.\n\nCAMERA: Controlled handheld close-ups. Open directly on the discomfort, no establishing shot, no slow intro.\n\nAUDIO: The slow rhythmic wash of a ceiling fan, a faint electrical hum, distant summer insects outside, a low cinematic bass pulse beginning. No dialogue.\n\nCONTINUITY - THE HOMEOWNER (identical in every clip she appears): the same Latina woman in her late thirties, shoulder-length dark hair pulled back loosely, no makeup, plain grey sleep tank top and soft cotton shorts, barefoot, damp hairline and faintly flushed skin from the heat, tired but capable. A parent, not a model.\n\nCONTINUITY - THE TECHNICIAN (identical in clips 4 and 5): the same man in his thirties, close-cropped hair, plain unbranded navy work shirt with the sleeves rolled, dark work pants, scuffed brown boots, worn leather-palm work gloves. Calm and competent, never rushed or heroic.\n\nCONTINUITY - THE HOUSE (identical in every clip): the same modest, clean, single-story suburban Houston home, lived-in and warm. Beige walls, laminate wood-look flooring, a slow-turning white ceiling fan in the bedroom, venetian blinds. Humid summer night outside, no rain, still air, faint heat haze. CONTINUITY - THE VAN: the same completely unbranded white full-size service van, clean but used, no markings, no lettering, no license plate detail.\n\nSTYLE: Grounded modern cinematic drama, never an AI or tech commercial. Restrained premium commercial cinematography: practical lighting sources only, subtle handheld movement, shallow depth of field, light film grain, realistic human motion, anatomically accurate hands, correct and authentic HVAC tools and equipment. Warm skin tones against humid darkness. Natural performances, tension without melodrama. 24 fps cinematic motion feel.\n\nNEVER INCLUDE: generic corporate-office shots, smiling stock-photo receptionists, call centers, robots, holograms, HUDs, neon elements, futuristic dashboards, glowing AI graphics, fake app interfaces, readable phone content, visible business names, brands, logos, any legible text of any kind anywhere in frame, URLs, phone numbers, captions, subtitles, watermarks, overly dramatic house damage, smoke, explosions, disaster-film effects, distorted hands, extra fingers, warped thermostats, malformed vehicles, impossible AC units, incorrect HVAC tools, floating objects, cartoonish reactions, excessive lens flare. Every phone, thermostat and device display must be an out-of-focus abstract glow with no legible numbers or words.",
+        "mode": "t2v",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": true,
+        "bitrate_mode": "high"
+      }
+    },
+    {
+      "_clip": "clip2_call_goes_nowhere",
+      "_title": "THE CALL THAT GOES NOWHERE",
+      "_timeline_in": 3.0,
+      "_timeline_out": 7.0,
+      "_generated_seconds_billable": 5,
+      "_editorial_seconds_used": 4.0,
+      "_trim_start": 0.5,
+      "_method": "POST https://api.higgsfield.ai/bytedance/seedance-2.5/text-to-video",
+      "_headers": {
+        "Authorization": "Key <KEY_ID>:<KEY_SECRET>",
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "prompt": "CLIP2_CALL_GOES_NOWHERE - THE CALL THAT GOES NOWHERE\n\nSCENE: Two beats in one continuous clip. First: the same homeowner stands in the dim hallway outside the bedroom, urgently placing a call. The phone sits naturally in her hand and its screen is a completely abstract unreadable glow. The call rings. Then cut to a different dark bedroom where an HVAC company owner, a man in his fifties, is asleep. His phone rests on a nightstand beside a pair of work boots and a folded work shirt. It vibrates once against the wood, the screen throws a soft abstract missed-call glow onto the ceiling, it rings unanswered, then goes dark. He does not wake. End holding on the silent phone in the dark.\n\nLIGHTING: Almost nothing. Hallway spill on her face, then only the phone's own light in a black bedroom.\n\nCAMERA: Intimate realistic shallow focus, locked-off on the nightstand for the second beat. No exaggerated acting, no push-in on the sleeping face.\n\nAUDIO: A believable phone vibration buzzing against wood, a muffled ringtone cycling, then an abrupt and meaningful silence.\n\nCONTINUITY - THE HOMEOWNER (identical in every clip she appears): the same Latina woman in her late thirties, shoulder-length dark hair pulled back loosely, no makeup, plain grey sleep tank top and soft cotton shorts, barefoot, damp hairline and faintly flushed skin from the heat, tired but capable. A parent, not a model.\n\nCONTINUITY - THE TECHNICIAN (identical in clips 4 and 5): the same man in his thirties, close-cropped hair, plain unbranded navy work shirt with the sleeves rolled, dark work pants, scuffed brown boots, worn leather-palm work gloves. Calm and competent, never rushed or heroic.\n\nCONTINUITY - THE HOUSE (identical in every clip): the same modest, clean, single-story suburban Houston home, lived-in and warm. Beige walls, laminate wood-look flooring, a slow-turning white ceiling fan in the bedroom, venetian blinds. Humid summer night outside, no rain, still air, faint heat haze. CONTINUITY - THE VAN: the same completely unbranded white full-size service van, clean but used, no markings, no lettering, no license plate detail.\n\nSTYLE: Grounded modern cinematic drama, never an AI or tech commercial. Restrained premium commercial cinematography: practical lighting sources only, subtle handheld movement, shallow depth of field, light film grain, realistic human motion, anatomically accurate hands, correct and authentic HVAC tools and equipment. Warm skin tones against humid darkness. Natural performances, tension without melodrama. 24 fps cinematic motion feel.\n\nNEVER INCLUDE: generic corporate-office shots, smiling stock-photo receptionists, call centers, robots, holograms, HUDs, neon elements, futuristic dashboards, glowing AI graphics, fake app interfaces, readable phone content, visible business names, brands, logos, any legible text of any kind anywhere in frame, URLs, phone numbers, captions, subtitles, watermarks, overly dramatic house damage, smoke, explosions, disaster-film effects, distorted hands, extra fingers, warped thermostats, malformed vehicles, impossible AC units, incorrect HVAC tools, floating objects, cartoonish reactions, excessive lens flare. Every phone, thermostat and device display must be an out-of-focus abstract glow with no legible numbers or words.",
+        "mode": "t2v",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": true,
+        "bitrate_mode": "high"
+      }
+    },
+    {
+      "_clip": "clip3_caller_finds_help",
+      "_title": "THE CALLER FINDS HELP",
+      "_timeline_in": 7.0,
+      "_timeline_out": 10.5,
+      "_generated_seconds_billable": 5,
+      "_editorial_seconds_used": 3.5,
+      "_trim_start": 0.4,
+      "_method": "POST https://api.higgsfield.ai/bytedance/seedance-2.5/text-to-video",
+      "_headers": {
+        "Authorization": "Key <KEY_ID>:<KEY_SECRET>",
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "prompt": "CLIP3_CALLER_FINDS_HELP - THE CALLER FINDS HELP\n\nSCENE: Back in the same warm uncomfortable house, same homeowner. She takes one frustrated breath and calls a second company. The phone display stays fully unreadable. Someone answers immediately and her worried face eases. Show only a grounded side-profile close-up of her listening, then a natural shot of the phone held in her hand, fingers correct and relaxed. No call center, no interface animation, no AI visual effects of any kind.\n\nLIGHTING: Warm low practical lamp light, her face half in shadow, softening as the call connects.\n\nCAMERA: Handheld side profile at eye level, then a simple insert on the hand. Human and intimate.\n\nAUDIO: Dialogue, natural and unforced, not performed. The homeowner, stressed: \"Hablan espanol? Our AC stopped working.\" A warm, calm bilingual female receptionist, slightly compressed as telephone audio: \"Si, claro. I can get someone scheduled right now.\" The harsh tension releases underneath; a subtle warm music bed begins under realistic room ambience.\n\nCONTINUITY - THE HOMEOWNER (identical in every clip she appears): the same Latina woman in her late thirties, shoulder-length dark hair pulled back loosely, no makeup, plain grey sleep tank top and soft cotton shorts, barefoot, damp hairline and faintly flushed skin from the heat, tired but capable. A parent, not a model.\n\nCONTINUITY - THE TECHNICIAN (identical in clips 4 and 5): the same man in his thirties, close-cropped hair, plain unbranded navy work shirt with the sleeves rolled, dark work pants, scuffed brown boots, worn leather-palm work gloves. Calm and competent, never rushed or heroic.\n\nCONTINUITY - THE HOUSE (identical in every clip): the same modest, clean, single-story suburban Houston home, lived-in and warm. Beige walls, laminate wood-look flooring, a slow-turning white ceiling fan in the bedroom, venetian blinds. Humid summer night outside, no rain, still air, faint heat haze. CONTINUITY - THE VAN: the same completely unbranded white full-size service van, clean but used, no markings, no lettering, no license plate detail.\n\nSTYLE: Grounded modern cinematic drama, never an AI or tech commercial. Restrained premium commercial cinematography: practical lighting sources only, subtle handheld movement, shallow depth of field, light film grain, realistic human motion, anatomically accurate hands, correct and authentic HVAC tools and equipment. Warm skin tones against humid darkness. Natural performances, tension without melodrama. 24 fps cinematic motion feel.\n\nNEVER INCLUDE: generic corporate-office shots, smiling stock-photo receptionists, call centers, robots, holograms, HUDs, neon elements, futuristic dashboards, glowing AI graphics, fake app interfaces, readable phone content, visible business names, brands, logos, any legible text of any kind anywhere in frame, URLs, phone numbers, captions, subtitles, watermarks, overly dramatic house damage, smoke, explosions, disaster-film effects, distorted hands, extra fingers, warped thermostats, malformed vehicles, impossible AC units, incorrect HVAC tools, floating objects, cartoonish reactions, excessive lens flare. Every phone, thermostat and device display must be an out-of-focus abstract glow with no legible numbers or words.",
+        "mode": "t2v",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": true,
+        "bitrate_mode": "high"
+      }
+    },
+    {
+      "_clip": "clip4_job_gets_routed",
+      "_title": "THE JOB GETS ROUTED",
+      "_timeline_in": 10.5,
+      "_timeline_out": 14.0,
+      "_generated_seconds_billable": 5,
+      "_editorial_seconds_used": 3.5,
+      "_trim_start": 0.3,
+      "_method": "POST https://api.higgsfield.ai/bytedance/seedance-2.5/text-to-video",
+      "_headers": {
+        "Authorization": "Key <KEY_ID>:<KEY_SECRET>",
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "prompt": "CLIP4_JOB_GETS_ROUTED - THE JOB GETS ROUTED\n\nSCENE: Before dawn. The technician receives a discreet service alert on a work phone inside a parked service van in a garage; the screen is an abstract unreadable glow. A run of quick authentic inserts: his hands tightening worn work gloves; lifting an organized HVAC tool bag by its handles; picking up a compact professional diagnostic meter; a hand checking the van's interior shelving; the side door sliding closed. One very brief out-of-focus glimpse of an appointment-style confirmation on a small screen with no readable words or numbers. He moves with calm competence, never exaggerated urgency.\n\nLIGHTING: Cool blue pre-dawn light mixing with garage fluorescent tubes and the van's warm interior dome light.\n\nCAMERA: Tight practical cinematic close-ups of accurate tools, hands and work preparation. Short handheld moves that settle.\n\nAUDIO: The stretch and slap of work gloves, a metal latch, tool bag hardware shifting, the solid slide and thunk of the van door. Music becomes more assured.\n\nCONTINUITY - THE HOMEOWNER (identical in every clip she appears): the same Latina woman in her late thirties, shoulder-length dark hair pulled back loosely, no makeup, plain grey sleep tank top and soft cotton shorts, barefoot, damp hairline and faintly flushed skin from the heat, tired but capable. A parent, not a model.\n\nCONTINUITY - THE TECHNICIAN (identical in clips 4 and 5): the same man in his thirties, close-cropped hair, plain unbranded navy work shirt with the sleeves rolled, dark work pants, scuffed brown boots, worn leather-palm work gloves. Calm and competent, never rushed or heroic.\n\nCONTINUITY - THE HOUSE (identical in every clip): the same modest, clean, single-story suburban Houston home, lived-in and warm. Beige walls, laminate wood-look flooring, a slow-turning white ceiling fan in the bedroom, venetian blinds. Humid summer night outside, no rain, still air, faint heat haze. CONTINUITY - THE VAN: the same completely unbranded white full-size service van, clean but used, no markings, no lettering, no license plate detail.\n\nSTYLE: Grounded modern cinematic drama, never an AI or tech commercial. Restrained premium commercial cinematography: practical lighting sources only, subtle handheld movement, shallow depth of field, light film grain, realistic human motion, anatomically accurate hands, correct and authentic HVAC tools and equipment. Warm skin tones against humid darkness. Natural performances, tension without melodrama. 24 fps cinematic motion feel.\n\nNEVER INCLUDE: generic corporate-office shots, smiling stock-photo receptionists, call centers, robots, holograms, HUDs, neon elements, futuristic dashboards, glowing AI graphics, fake app interfaces, readable phone content, visible business names, brands, logos, any legible text of any kind anywhere in frame, URLs, phone numbers, captions, subtitles, watermarks, overly dramatic house damage, smoke, explosions, disaster-film effects, distorted hands, extra fingers, warped thermostats, malformed vehicles, impossible AC units, incorrect HVAC tools, floating objects, cartoonish reactions, excessive lens flare. Every phone, thermostat and device display must be an out-of-focus abstract glow with no legible numbers or words.",
+        "mode": "t2v",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": true,
+        "bitrate_mode": "high"
+      }
+    },
+    {
+      "_clip": "clip5_company_that_answered",
+      "_title": "THE COMPANY THAT ANSWERED",
+      "_timeline_in": 14.0,
+      "_timeline_out": 17.0,
+      "_generated_seconds_billable": 5,
+      "_editorial_seconds_used": 3.0,
+      "_trim_start": 0.4,
+      "_method": "POST https://api.higgsfield.ai/bytedance/seedance-2.5/text-to-video",
+      "_headers": {
+        "Authorization": "Key <KEY_ID>:<KEY_SECRET>",
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "prompt": "CLIP5_COMPANY_THAT_ANSWERED - THE COMPANY THAT ANSWERED\n\nSCENE: Dawn outside the same suburban home. The same unbranded white service van pulls up to the curb and settles. The same technician steps out with the same tool bag and walks toward the house. Through the front window the homeowner sees the van and visibly relaxes, her shoulders dropping. Then a half-second contrast insert: the HVAC owner's phone still untouched on his nightstand, showing a small abstract missed-call indicator, no readable text. Return immediately to the technician walking to the front door as the final image.\n\nLIGHTING: Real warm sunrise with subtle morning haze. No oversaturated golden-hour cliche, no lens flare.\n\nCAMERA: Grounded and warm. Simple handheld follow on the technician, a clean locked-off insert for the phone.\n\nAUDIO: A van engine settling and shutting off, early morning birds, boots on concrete, music resolving in a calm decisive way.\n\nCONTINUITY - THE HOMEOWNER (identical in every clip she appears): the same Latina woman in her late thirties, shoulder-length dark hair pulled back loosely, no makeup, plain grey sleep tank top and soft cotton shorts, barefoot, damp hairline and faintly flushed skin from the heat, tired but capable. A parent, not a model.\n\nCONTINUITY - THE TECHNICIAN (identical in clips 4 and 5): the same man in his thirties, close-cropped hair, plain unbranded navy work shirt with the sleeves rolled, dark work pants, scuffed brown boots, worn leather-palm work gloves. Calm and competent, never rushed or heroic.\n\nCONTINUITY - THE HOUSE (identical in every clip): the same modest, clean, single-story suburban Houston home, lived-in and warm. Beige walls, laminate wood-look flooring, a slow-turning white ceiling fan in the bedroom, venetian blinds. Humid summer night outside, no rain, still air, faint heat haze. CONTINUITY - THE VAN: the same completely unbranded white full-size service van, clean but used, no markings, no lettering, no license plate detail.\n\nSTYLE: Grounded modern cinematic drama, never an AI or tech commercial. Restrained premium commercial cinematography: practical lighting sources only, subtle handheld movement, shallow depth of field, light film grain, realistic human motion, anatomically accurate hands, correct and authentic HVAC tools and equipment. Warm skin tones against humid darkness. Natural performances, tension without melodrama. 24 fps cinematic motion feel.\n\nNEVER INCLUDE: generic corporate-office shots, smiling stock-photo receptionists, call centers, robots, holograms, HUDs, neon elements, futuristic dashboards, glowing AI graphics, fake app interfaces, readable phone content, visible business names, brands, logos, any legible text of any kind anywhere in frame, URLs, phone numbers, captions, subtitles, watermarks, overly dramatic house damage, smoke, explosions, disaster-film effects, distorted hands, extra fingers, warped thermostats, malformed vehicles, impossible AC units, incorrect HVAC tools, floating objects, cartoonish reactions, excessive lens flare. Every phone, thermostat and device display must be an out-of-focus abstract glow with no legible numbers or words.",
+        "mode": "t2v",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": true,
+        "bitrate_mode": "high"
+      }
+    }
+  ]
+}

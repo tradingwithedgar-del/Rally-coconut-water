@@ -1,0 +1,24 @@
+{
+  "name": "Grand Nash Studio",
+  "website": "grandnashstudio.com",
+  "phone": "346-277-0805",
+  "cta": "STOP LOSING CALLS. BOOK A FREE DEMO.",
+  "logo": {
+    "path": "assets/logo/grand-nash-mark.jpg",
+    "_note": "Square raster mark, background baked in at #0B0C0E. The end card background is set to the same value so the mark floats with no visible edge. Swap in a transparent SVG/PNG here and set logo.has_alpha true.",
+    "has_alpha": false,
+    "background": "#0B0C0E",
+    "width_px": 420
+  },
+  "palette": {
+    "_note": "Sampled directly from the supplied logo.",
+    "background": "#0B0C0E",
+    "amber": "#E2BB5E",
+    "offwhite": "#E6E5E1",
+    "grey": "#91908E"
+  },
+  "type": {
+    "font": "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "_note": "Override with REEL_FONT. Any bold TTF works."
+  }
+}
